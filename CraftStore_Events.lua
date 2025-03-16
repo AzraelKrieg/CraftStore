@@ -109,6 +109,7 @@ function CS.OnCraftingStationInteract(eventCode,craftSkill)
 	CS.UpdateResearchWindows()	
   end
 end
+end
 
 function CS.OnCraftCompleted(eventCode,craftSkill)
   local inspirationGained = GetLastCraftingResultTotalInspiration()
